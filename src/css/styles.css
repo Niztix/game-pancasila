@@ -23,7 +23,7 @@ h1 {
 .card-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .card {

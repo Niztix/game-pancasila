@@ -21,6 +21,13 @@ module.exports = {
           filename: "assets/images/[name][ext]",
         },
       },
+      {
+        test: /\.(mp3|wav|ogg)$/,
+        type: "asset/resource", // Untuk menghasilkan file terpisah
+        generator: {
+          filename: "assets/audio/[name].[hash][ext]", // Tentukan folder output
+        },
+      },
     ],
   },
   plugins: [
